@@ -1,0 +1,276 @@
+/*html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+nav {
+  border-bottom: 1px solid #EAEAEB;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+#navigation {
+  margin: 0px 30px 0px 0px;
+}
+
+#navigation a{
+  clear: right;
+  text-decoration: none;
+  color: rgb(144, 144, 144);
+  margin: 0px 10px;
+  line-height: 70px;
+}
+
+span {
+  color: #54D17A;
+}
+
+label {
+  margin: 0px 40px 0px 0px;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navigation {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  #navigation a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0px;
+  }
+
+  #toggle:checked + .navigation {
+    display: block;
+  }
+}*/
+
+body {
+  background-image: url("https://images.pexels.com/photos/842948/pexels-photo-842948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+/*color: #fff;*/
+  margin:0;
+  padding:0;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.paragraph {
+  /*border: 1px solid blue;*/
+  text-align: left;
+  padding: 0px 50px 10px 300px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.about-me-word {
+  padding: 0px 0px 0px 0px;
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+.profile-picture{
+  float:left;
+  border-radius: 15px;
+  margin-left: 50px;
+  width: 250px;
+}
+
+.about-me-container{
+  height:260px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.Artwork {
+  text-align: center;
+
+}
+
+.Gallery {
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid blue;*/
+}
+
+.Gallery-1, .Gallery-2, .Gallery-3, .Gallery-4 {
+    margin: 0 10px;
+}
+
+.welcome {
+  /*border: 1px solid red;*/
+  color: white;
+  text-align: center;
+  background-color: #4b4b4b;
+  /*border: #454444;*/
+  margin: auto;
+  width: auto;
+  padding: 5px 0px;
+}
+
+.welcome-word {
+  /*border: 1px solid red;*/
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.create-word {
+  font-size: 25px;
+}
+
+.contact {
+  background-color: #4b4b4b;
+  height: 150px;
+}
+
+.address {
+  height: 50px;
+  padding: 10px 0px 30px 0px;
+  margin-left: 50px;
+  color: white;
+  font-size: 20px;
+  float: left;
+}
+
+.fa {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#facebook {
+  margin: 10px;
+  float: left;
+}
+
+#instagram {
+  margin: 10px;
+  margin-left: 70px;
+}
+
+.social-media {
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 300px;
+  height: 70px;
+  padding: 10px 0px; 
+}
+
+.video-word {
+  text-align: center;
+}*/
+
+.video {
+  display: inline-block;
+}
+
+.video-1 {
+  display: flex;
+  justify-content: center; 
+}
+
+.video-2 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-size: 100%; 
+  background-position: center;
+  background-color: #333;
+  width: 100%;
+  padding: 25px;
+  /*border: 25px solid navy;*/
+  margin: 0px;
+  /*border-radius: 15px;*/
+
+  /*font-size: 2em;
+  text-align: center;
+  font-weight: bold;*/
+}
+
+/*h3 {
+  padding: 0px;
+}*/
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+.pubg-image {
+  float: left;
+  display: block;
+  height: 100px;
+}
+
+.PUBG {
+  margin-left: 0px;
+}
+
+.dota-image {
+  margin-left: 20px;
+  display: block;
+  height: 90px;
+}
+
+.my-favourite-games {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+/*.PUBG {
+  width: auto;
+  height: 30px;
+}*/
+
+/*.DOTA {
+  border: 1px solid red;
+  width: auto;
+  height: 30px;
+}*/
