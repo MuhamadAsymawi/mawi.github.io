@@ -1,0 +1,290 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+nav {
+  border-bottom: 1px solid #EAEAEB;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+#navigation {
+  margin: 0px 30px 0px 0px;
+}
+
+#navigation a{
+  clear: right;
+  text-decoration: none;
+  color: rgb(144, 144, 144);
+  margin: 0px 10px;
+  line-height: 70px;
+}
+
+span {
+  color: #54D17A;
+}
+
+label {
+  margin: 0px 40px 0px 0px;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navigation {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  #navigation a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0px;
+  }
+
+  #toggle:checked + #navigation {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-image: url("https://images.pexels.com/photos/842948/pexels-photo-842948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+/*color: #fff;*/
+  margin:0px;
+  padding:0px;
+  font-family: 'Do Hyeon', sans-serif;*/
+}
+
+/*.paragraph {*/
+  /*border: 1px solid blue;*/
+/*  text-align: left;
+  padding: 0px 50px 10px 300px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.about-me-word {
+  padding: 0px 50px 0px 300px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.profile-picture{
+  float:left;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.about-me-container{
+  height:260px;
+}
+
+.Artwork {
+  text-align: center;
+
+}
+
+.Gallery {
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid blue;*/
+/*}
+
+.Gallery-1, .Gallery-2, .Gallery-3 {
+    margin: 0 10px;
+}
+
+.welcome {*/
+  /*border: 1px solid red;*/
+/*  color: white;
+  text-align: center;
+  background-color: #4b4b4b;*/
+  /*border: #454444;*/
+/*  margin: auto;
+  width: auto;
+  padding: 5px 0px;
+}
+
+.welcome-word {*/
+  /*border: 1px solid red;*/
+/*  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.create-word {
+  font-size: 25px;
+}
+
+.contact {
+  background-color: #4b4b4b;
+  height: 150px;
+}
+
+.address {
+  height: 100px;
+  padding: 30px 0px 30px 0px;
+  margin-left: 50px;
+  color: white;
+  font-size: 20px;
+  float: left;
+}
+
+.fa {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#facebook {
+  float: left;
+}
+
+#instagram {
+  margin-left: 70px;
+}
+
+.social-media {
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 300px;
+  height: 70px;
+  padding: 10px 0px; 
+}
+
+.video-word {
+  text-align: center;
+}*/
+
+/*.video {
+  display: inline-block;
+}*/
+
+/*.video-1 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.video-2 {
+  display: flex;
+  justify-content: center;
+}*/
+
+/*.video-1, .video-2 {
+  display: inline-block;
+  flex-direction: row;
+}*/
+
+/*aside {
+  display: block;
+}*/
+
+/*#copyright {
+  text-align: center;
+  height: 70px;
+  color: white;
+  background-color: #333;
+  border: 1px solid red;
+}
+
+header {
+  background-color: white;
+  border: none;
+}
+
+#logo {
+  width: 300px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 20px;
+}*/
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #111;
+}
